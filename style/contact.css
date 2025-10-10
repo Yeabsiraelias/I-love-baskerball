@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    background-color: whitesmoke;
+    color: burlywood;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    
+}
+
+nav {
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+   
+    margin-top: 15px ;
+    letter-spacing: 1px;
+    word-spacing: 40px;
+}
+
+nav a:hover {
+  color:white;
+}
+head{
+      background-color: whitesmoke;
+    color: burlywood;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: url(../images/basketball-216862.webp) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}

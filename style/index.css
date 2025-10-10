@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url('../images/basketball-216862.webp');
+ 
 header {
     background-color: whitesmoke;
     color: burlywood;
+    width: 100%;
     padding: 10px;
     text-align: center;
     font-size: larger;
@@ -20,16 +20,21 @@ header {
 nav {
     background-color: wheat;
     color: black;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
-    margin-bottom: 25px;
+   
     margin-top: 15px ;
     letter-spacing: 1px;
-    word-spacing: 20px;
+    word-spacing: 40px;
 }
+
+nav a:hover {
+  color:white;
+}
+
 .head{
     background-color: whitesmoke;
     color: burlywood;
@@ -39,15 +44,67 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
     letter-spacing: 2px;
+    background: url(../images/basketball-216862.webp) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.head {
+     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-}
+
 .intro {
-    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.6;
    text-align: center;
-   background-color: bisque;
+   max-width: 900px;
+  background-color: rgba(43, 28, 11, 0.6);
+  color: hsl(43, 71%, 89%);
+  padding: 30px 40px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
 }
+.meaning {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: rgba(43, 28, 11, 0.6);
+     background-gradient: linear-gradient(135deg,rgba(171, 26, 26, 0.1) 0%,rgba(25, 25, 154, 0.25) 100%)
+  color: hsl(43, 66%, 14%);
+  padding: 30px 40px;
+  border-radius: 10px;
+  margin: 40px 100px;
+}
+.mehead{
+    text-align: center;
+    font-size: 30px;
+
+
+}
+button {
+    display: block;
+    margin: 10px auto 40px auto;
+    padding: 10px 20px;
+    font-size: x-large;
+    background-color: burlywood;
+    color: white;
+    border: none;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: wheat;
+    color: black;
+    
+}
+
